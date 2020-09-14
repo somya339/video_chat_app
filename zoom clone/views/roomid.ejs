@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form" action="/roomid" method="POST">
+        <h2>Enter RoomCode</h2>
+        <div class="form-control">
+          <label for="roomId">Room Id</label>
+          <input
+            type="password"
+            id="roomId"
+            name ="roomId"
+            placeholder="Enter RoomId"
+          />
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="submit">Create NewRoom</button>
+      </form>
+    </div>
+
+    <script src="js/script2.js"></script>
+  </body>
+</html>
